@@ -1,0 +1,96 @@
+.meshaudio {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #111827 60%, #0b253f 100%);
+  color: #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  min-width: 260px;
+}
+
+.meshaudio__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.meshaudio__title {
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+.meshaudio__status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 0 6px rgba(16, 185, 129, 0.12);
+  background: #9ca3af;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.meshaudio__status--streaming {
+  background: #22c55e;
+  box-shadow: 0 0 0 6px rgba(34, 197, 94, 0.15);
+}
+
+.meshaudio__status--starting {
+  background: #f59e0b;
+  box-shadow: 0 0 0 6px rgba(245, 158, 11, 0.15);
+}
+
+.meshaudio__status--error {
+  background: #ef4444;
+  box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.15);
+}
+
+.meshaudio__controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.meshaudio__toggle {
+  background: #22c55e;
+  color: #0b0f19;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+  box-shadow: 0 8px 20px rgba(34, 197, 94, 0.25);
+}
+
+.meshaudio__toggle:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.meshaudio__toggle:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(34, 197, 94, 0.35);
+}
+
+.meshaudio__volume {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.meshaudio__volume input[type="range"] {
+  accent-color: #22c55e;
+}
+
+.meshaudio__note {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #cbd5e1;
+  min-height: 16px;
+}
