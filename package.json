@@ -1,0 +1,13 @@
+{
+  "name": "meshaudio-plugin",
+  "version": "0.1.0",
+  "description": "MeshCentral audio sidecar plugin (signaling + relay)",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1",
+    "ws": "^8.17.0"
+  }
+}

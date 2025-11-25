@@ -1,0 +1,21 @@
+{
+  "name": "MeshAudio",
+  "shortName": "meshaudio",
+  "version": "0.1.0",
+  "author": "guestuser2025NL",
+  "description": "Adds audio streaming over a dedicated agent to MeshCentral.",
+  "hasAdminPanel": false,
+
+  "homepage": "https://github.com/guestuser2025NL/meshaudio",
+  "changelogUrl": "https://raw.githubusercontent.com/guestuser2025NL/meshaudio/main/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/guestuser2025NL/meshaudio/main/config.json",
+  "downloadUrl": "https://github.com/guestuser2025NL/meshaudio/archive/refs/heads/main.zip",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guestuser2025NL/meshaudio.git"
+  },
+
+  "versionHistoryUrl": "https://api.github.com/repos/guestuser2025NL/meshaudio/tags",
+  "meshCentralCompat": ">=1.1.0"
+}
